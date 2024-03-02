@@ -53,7 +53,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>JenkinsCiCd</finalName>
+		<finalName>jenkinsCiCd</finalName>
 	</build>
 
 </project>
