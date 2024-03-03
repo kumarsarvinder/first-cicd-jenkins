@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-@PropertySource("file:application.properties")
+//@PropertySource("file:application.properties")
 public class JenkinsDemoApplication {
 
 	@GetMapping("/greetings/{name}")
