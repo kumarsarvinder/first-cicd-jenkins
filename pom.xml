@@ -16,6 +16,7 @@
 	<description>Demo project for Spring Boot jenkins</description>
 	<properties>
 		<java.version>11</java.version>
+        <start-class>JenkinsDemoApplication</start-class>
 	</properties>
 	<dependencies>
 		<dependency>
