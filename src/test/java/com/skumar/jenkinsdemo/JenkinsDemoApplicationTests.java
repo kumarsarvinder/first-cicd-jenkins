@@ -23,7 +23,7 @@ class JenkinsDemoApplicationTests {
 
 		mockMvc.perform(MockMvcRequestBuilders.get("/greetings/{name}",name))
 				.andExpect(MockMvcResultMatchers.status().isOk())
-				.andExpect(MockMvcResultMatchers.content().string("Hello "+ name + " Welcome"));
+				.andExpect(MockMvcResultMatchers.content().string("Hello "+ name + " Welcome."));
 
 	}
 }

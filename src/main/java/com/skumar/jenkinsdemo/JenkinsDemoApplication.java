@@ -20,7 +20,7 @@ public class JenkinsDemoApplication extends SpringBootServletInitializer {
 
 	@GetMapping("/greetings/{name}")
 	public String getGreetings(@PathVariable String name){
-		return "Hello "+ name + " Welcome";
+		return "Hello "+ name + " Welcome.";
 	}
 
 
